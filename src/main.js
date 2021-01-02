@@ -3,6 +3,12 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+fetch(process.env.BASE_URL + "configuration.ch.json")
+  .then((response) => {
+    response.json().then((config) => {
+       Vue.prototype.$config = config
+       new Vue({
+         render: (h) => h(App)
+       }).$mount("#app")
+    })
+})

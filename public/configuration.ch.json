@@ -1,0 +1,864 @@
+[
+    {
+        "letter": "E",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": true,
+        "isActive": false
+    },
+    {
+        "letter": "S",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": true,
+        "isActive": false
+    },
+    {
+        "letter": "K",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": true,
+        "isActive": false
+    },
+    {
+        "letter": "S",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": true,
+        "isActive": false
+    },
+    {
+        "letter": "C",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": true,
+        "isActive": false
+    },
+    {
+        "letter": "H",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": true,
+        "isActive": false
+    },
+    {
+        "letter": "A",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "F",
+        "minutes": [
+            5,
+            25,
+            35,
+            55
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ü",
+        "minutes": [
+            5,
+            25,
+            35,
+            55
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "F",
+        "minutes": [
+            5,
+            25,
+            35,
+            55
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "V",
+        "minutes": [
+            15,
+            45
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": [
+            15,
+            45
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "E",
+        "minutes": [
+            15,
+            45
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "R",
+        "minutes": [
+            15,
+            45
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "T",
+        "minutes": [
+            15,
+            45
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "U",
+        "minutes": [
+            15,
+            45
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "B",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "F",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Z",
+        "minutes": [
+            10,
+            50
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ä",
+        "minutes": [
+            10,
+            50
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ä",
+        "minutes": [
+            10,
+            50
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Z",
+        "minutes": [
+            20,
+            40
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "W",
+        "minutes": [
+            20,
+            40
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ä",
+        "minutes": [
+            20,
+            40
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "N",
+        "minutes": [
+            20,
+            40
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Z",
+        "minutes": [
+            20,
+            40
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "G",
+        "minutes": [
+            20,
+            40
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "S",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "V",
+        "minutes": [
+            25,
+            40,
+            45,
+            50,
+            55
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "O",
+        "minutes": [
+            25,
+            40,
+            45,
+            50,
+            55
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "R",
+        "minutes": [
+            25,
+            40,
+            45,
+            50,
+            55
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "A",
+        "minutes": [
+            5,10,15,20,35
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "B",
+        "minutes": [
+            5,10,15,20,35
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "O",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "H",
+        "minutes": [
+            25,30,35
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "A",
+        "minutes": [
+            25,30,35
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "U",
+        "minutes": [
+            25,30,35
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "B",
+        "minutes": [
+            25,30,35
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": [
+            25,30,35
+        ],
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "E",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "G",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "E",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "E",
+        "minutes": 0,
+        "hours": 1,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 1,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "S",
+        "minutes": 0,
+        "hours": 1,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Z",
+        "minutes": 0,
+        "hours": 2,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "W",
+        "minutes":0,
+        "hours": 2,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ö",
+        "minutes": 0,
+        "hours": 2,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 2,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "S",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "D",
+        "minutes": 0,
+        "hours": 3,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "R",
+        "minutes": 0,
+        "hours": 3,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ü",
+        "minutes": 0,
+        "hours": 3,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "V",
+        "minutes": 0,
+        "hours": 4,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 4,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "E",
+        "minutes": 0,
+        "hours": 4,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "R",
+        "minutes": 0,
+        "hours": 4,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes":0,
+        "hours": 4,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "F",
+        "minutes": 0,
+        "hours": 5,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ü",
+        "minutes": 0,
+        "hours": 5,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "F",
+        "minutes": 0,
+        "hours": 5,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 5,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Q",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "R",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "S",
+        "minutes": 0,
+        "hours": 6,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ä",
+        "minutes": 0,
+        "hours": 6,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "C",
+        "minutes": 0,
+        "hours": 6,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "H",
+        "minutes": 0,
+        "hours": 6,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "S",
+        "minutes":0,
+        "hours": 6,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 6,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "S",
+        "minutes": 0,
+        "hours": 7,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 7,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "B",
+        "minutes": 0,
+        "hours": 7,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "N",
+        "minutes": 0,
+        "hours": 7,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 7,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "A",
+        "minutes": 0,
+        "hours": 8,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "C",
+        "minutes": 0,
+        "hours": 8,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "H",
+        "minutes": 0,
+        "hours": 8,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "T",
+        "minutes": 0,
+        "hours": 8,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes":0,
+        "hours": 8,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "N",
+        "minutes": 0,
+        "hours": 9,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ü",
+        "minutes": 0,
+        "hours": 9,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "N",
+        "minutes": 0,
+        "hours": 9,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 9,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "E",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "L",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Z",
+        "minutes": 0,
+        "hours": 10,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ä",
+        "minutes": 0,
+        "hours": 10,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "N",
+        "minutes": 0,
+        "hours": 10,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 10,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "E",
+        "minutes":0,
+        "hours": 8,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "R",
+        "minutes": 0,
+        "hours": 9,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "B",
+        "minutes": 0,
+        "hours": 9,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "E",
+        "minutes": 0,
+        "hours": 11,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "U",
+        "minutes": 0,
+        "hours": 11,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "F",
+        "minutes": 0,
+        "hours": 11,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 11,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Z",
+        "minutes": 0,
+        "hours": 12,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "W",
+        "minutes": 0,
+        "hours": 12,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "Ö",
+        "minutes": 0,
+        "hours": 12,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "U",
+        "minutes": 0,
+        "hours": 12,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "F",
+        "minutes":0,
+        "hours": 12,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "I",
+        "minutes": 0,
+        "hours": 12,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "N",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "A",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "U",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "H",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    },
+    {
+        "letter": "R",
+        "minutes": 0,
+        "hours": 0,
+        "alwaysOn": false,
+        "isActive": false
+    }
+]
