@@ -5,6 +5,9 @@
   grid-template-rows: 1fr 10fr 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  border: 1px solid white;
+  padding: 1em 0.01em;
+  border-radius: 2em;
 }
 .parent {
   grid-area: 2 / 2 / 3 / 3;
