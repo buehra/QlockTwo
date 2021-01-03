@@ -15,7 +15,8 @@
   grid-row-gap: 0px;
 }
 .activeTime {
-  color: yellow;
+  color: white;
+  text-shadow: white 0px 0px 6px;
 }
 .oneMinute {
   grid-area: 1 / 1 / 2 / 2;
@@ -40,7 +41,7 @@
           cy="0.5em"
           r="0.4em"
           stroke="black"
-          v-bind:fill="this.currentOverTime >= 1 ? 'yellow' : 'darkslategrey'"
+          v-bind:fill="this.currentOverTime >= 1 ? 'white' : '#222'"
         />
       </svg>
     </p>
@@ -51,7 +52,7 @@
           cy="0.5em"
           r="0.4em"
           stroke="black"
-          v-bind:fill="this.currentOverTime >= 2 ? 'yellow' : 'darkslategrey'"
+          v-bind:fill="this.currentOverTime >= 2 ? 'white' : '#222'"
         />
       </svg>
     </p>
@@ -71,7 +72,7 @@
           cy="0.5em"
           r="0.4em"
           stroke="black"
-          v-bind:fill="this.currentOverTime >= 3 ? 'yellow' : 'darkslategrey'"
+          v-bind:fill="this.currentOverTime >= 3 ? 'white' : '#222'"
         />
       </svg>
     </p>
@@ -82,7 +83,7 @@
           cy="0.5em"
           r="0.4em"
           stroke="black"
-          v-bind:fill="this.currentOverTime >= 4 ? 'yellow' : 'darkslategrey'"
+          v-bind:fill="this.currentOverTime >= 4 ? 'white' : '#222'"
         />
       </svg>
     </p>
