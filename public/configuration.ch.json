@@ -745,14 +745,14 @@
     {
         "letter": "R",
         "minutes": 0,
-        "hours": 9,
+        "hours": 0,
         "alwaysOn": false,
         "isActive": false
     },
     {
         "letter": "B",
         "minutes": 0,
-        "hours": 9,
+        "hours": 0,
         "alwaysOn": false,
         "isActive": false
     },
