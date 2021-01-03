@@ -1,29 +1,18 @@
-# qlocktwo
+# QlockTwo
 
-## Project setup
-```
-npm install
-```
+QlockTwo implementation in VueJs.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Check out the demo at https://qlocktwo-buehra.herokuapp.com/
 
-### Compiles and minifies for production
+## Configuration
+The configuration of the clock is stored in a Json. This can be adapted as you wish. 
+The configuration is built as a list of letters. The letters have the following values:
+```json
+{
+    "letter": "I",
+    "minutes": 0,
+    "hours": 12,
+    "alwaysOn": false,
+    "isActive": false
+}
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
