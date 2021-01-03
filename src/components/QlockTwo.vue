@@ -1,5 +1,13 @@
 <style scoped>
+.container {
+  display: grid;
+  grid-template-columns: 1fr 11fr 1fr;
+  grid-template-rows: 1fr 10fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 .parent {
+  grid-area: 2 / 2 / 3 / 3;
   display: grid;
   grid-template-columns: repeat(11, 1fr);
   grid-template-rows: repeat(10, 1fr);
@@ -9,16 +17,74 @@
 .activeTime {
   color: yellow;
 }
+.oneMinute {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.twoMinutes {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.threeMinutes {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.fourMinutes {
+  grid-area: 3 / 3 / 4 / 4;
+}
 </style>
 
 <template>
-  <div class="parent">
-    <p
-      v-for="(letter, index) in matrix"
-      v-bind:key="index"
-      v-bind:class="{ activeTime: letter.isActive }"
-    >
-      {{ letter.letter }}
+  <div class="container">
+    <p class="oneMinute">
+      <svg height="1em" width="1em">
+        <circle
+          cx="0.5em"
+          cy="0.5em"
+          r="0.4em"
+          stroke="black"
+          v-bind:fill="this.currentOverTime >= 1 ? 'yellow' : 'darkslategrey'"
+        />
+      </svg>
+    </p>
+    <p class="twoMinutes">
+      <svg height="1em" width="1em">
+        <circle
+          cx="0.5em"
+          cy="0.5em"
+          r="0.4em"
+          stroke="black"
+          v-bind:fill="this.currentOverTime >= 2 ? 'yellow' : 'darkslategrey'"
+        />
+      </svg>
+    </p>
+    <div class="parent">
+      <p
+        v-for="(letter, index) in matrix"
+        v-bind:key="index"
+        v-bind:class="{ activeTime: letter.isActive }"
+      >
+        {{ letter.letter }}
+      </p>
+    </div>
+    <p class="threeMinutes">
+      <svg height="1em" width="1em">
+        <circle
+          cx="0.5em"
+          cy="0.5em"
+          r="0.4em"
+          stroke="black"
+          v-bind:fill="this.currentOverTime >= 3 ? 'yellow' : 'darkslategrey'"
+        />
+      </svg>
+    </p>
+    <p class="fourMinutes">
+      <svg height="1em" width="1em">
+        <circle
+          cx="0.5em"
+          cy="0.5em"
+          r="0.4em"
+          stroke="black"
+          v-bind:fill="this.currentOverTime >= 4 ? 'yellow' : 'darkslategrey'"
+        />
+      </svg>
     </p>
   </div>
 </template>
@@ -26,16 +92,13 @@
 <script>
 export default {
   name: "QlockTwo",
-  props: {
-    msg: String,
-  },
   data() {
     return {
       currentHours: 0,
       currentMinutes: 0,
       currentOverTime: 0,
       minutes: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55],
-      matrix: [],  
+      matrix: [],
     };
   },
   computed: {},
@@ -72,7 +135,7 @@ export default {
     },
   },
   mounted() {
-    this.matrix = this.$config
+    this.matrix = this.$config;
     this.calculadeTimeInWords();
     // Interval for time change
     setInterval(() => {

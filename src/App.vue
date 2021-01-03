@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <QlockTwo msg="Welcome to Your Vue.js App"/>
+    <QlockTwo/>
   </div>
 </template>
 
