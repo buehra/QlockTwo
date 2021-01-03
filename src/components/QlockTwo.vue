@@ -98,6 +98,7 @@ export default {
   name: "QlockTwo",
   data() {
     return {
+      currentTime: new Date(),
       currentHours: 0,
       currentMinutes: 0,
       currentOverTime: 0,
@@ -108,21 +109,44 @@ export default {
   computed: {},
   methods: {
     calculadeTimeInWords: function() {
-      let currentTime = new Date();
+      this.currentTime = new Date();
+
+      // Calc current Minutes for Qlock
+      this.calculateCurrentMinutes();
+
+      // Calc adding Minutes
+      this.calculateAddingMinutes();
+
+      // Calc current Hour for Qlock
+      this.calculateCurrentHour();
+
+      // Set Letter active
+      for (var element of this.matrix) {
+        element.isActive = this.isActive(element);
+      }
+    },
+    calculateCurrentMinutes: function() {
       let currentMinutes = 0;
       for (var key of this.minutes) {
-        if (currentTime.getMinutes() >= key) {
+        if (this.currentTime.getMinutes() >= key) {
           currentMinutes = key;
         }
       }
 
       this.currentMinutes = currentMinutes;
-      this.currentOverTime = currentTime.getMinutes() - this.currentMinutes;
-      this.currentHours = (currentTime.getHours() + 1) % 13;
-
-      for (var element of this.matrix) {
-        element.isActive = this.isActive(element);
+    },
+    calculateAddingMinutes: function() {
+      this.currentOverTime =
+        this.currentTime.getMinutes() - this.currentMinutes;
+    },
+    calculateCurrentHour: function() {
+      let currentHour = 0;
+      currentHour = this.currentTime.getHours();
+      if (this.currentMinutes >= 25) {
+        currentHour++;
       }
+      currentHour = currentHour % 12;
+      this.currentHours = currentHour == 0 ? 12 : currentHour;
     },
     isActive: function(letter) {
       let isHour = letter.hours == this.currentHours;
