@@ -738,7 +738,7 @@
     {
         "letter": "E",
         "minutes":0,
-        "hours": 8,
+        "hours": 0,
         "alwaysOn": false,
         "isActive": false
     },
